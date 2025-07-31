@@ -1,0 +1,174 @@
+[
+  {
+    "name": "Dev Hotels",
+    "desc": "A full-stack hotel booking application built with the EJS Node.js, and MongoDB.",
+    "image": "DevHotels",
+    "category": "mern",
+    "links": {
+      "view": "https://dev-hotels-r336.onrender.com/listings/",
+      "code": "https://github.com/devdeepkumar/DevHotels"
+    }
+  },
+
+  {
+    "name": "Ecommerce",
+    "desc": "A full-stack e-commerce application built with React, Node.js, and MongoDB.",
+    "image": "Ecommerce",
+    "category": "mern",
+    "links": {
+      "view": "https://e-commerce-project-87dz.onrender.com/",
+      "code": "https://github.com/devdeepkumar/E-Commerce-Project"
+    }
+  },
+
+  {
+    "name": "Engmates LP",
+    "desc": "Awarded as Delhi's Best English Speaking Institute new Heights of Success Landing Page.",
+    "image": "Engmates",
+    "category": "html",
+    "links": {
+      "view": "https://devdeepkumar.github.io/NewEngmates/",
+      "code": "https://devdeepkumar.github.io/NewEngmates"
+    }
+  },
+  {
+    "name": "User Management",
+    "desc": "A simple user management system built with React jsonplaceholder api",
+    "image": "CrudReact",
+    "category": "react",
+    "links": {
+      "code": "https://github.com/devdeepkumar/usermanagementsystem/",
+      "view": "https://capable-sawine-ad3f5d.netlify.app/"
+    }
+  },
+  {
+    "name": "Resturent UI",
+    "desc": " A simple restaurant UI built with React ",
+    "image": "Resturent",
+    "category": "react",
+    "links": {
+      "view": "https://github.com/devdeepkumar/usermanagementsystem/",
+      "code": ""
+    }
+  },
+  {
+    "name": "Printify LP",
+    "desc": "Cloning Landing Page of Printify using React",
+    "image": "Printify",
+    "category": "react",
+    "links": {
+      "view": "https://github.com/devdeepkumar/printify-ui-design/",
+      "code": ""
+    }
+  },
+  {
+    "name": "Google Search",
+    "desc": "Google Custom Search API Using React",
+    "image": "Google",
+    "category": "react",
+    "links": {
+      "view": "https://devdeep-google-search.netlify.app/",
+      "code": ""
+    }
+  },
+  {
+    "name": "Rest Countries",
+    "desc": "Google Custom Search API Using React",
+    "image": "RestCountries",
+    "category": "react",
+    "links": {
+      "view": "https://luminous-smakager-802b4d.netlify.app/",
+      "code": "https://github.com/devdeepkumar/RestCountries"
+    }
+  },
+  {
+    "name": "LifeLinker Landing Page",
+    "desc": "Landing page created using pure HTML and CSS Js for LifeLinker.",
+    "image": "LL-Lp",
+    "category": "html",
+    "links": {
+      "view": "https://devdeepkumar.github.io/LL_New_LP/",
+      "code": "https://github.com/devdeepkumar/LL_New_LP"
+    }
+  },
+  {
+    "name": "Il Landing Page",
+    "desc": "Landing page created using pure HTML and CSS Js for IL Medicare.",
+    "image": "IL-Medicare",
+    "category": "html",
+    "links": {
+      "view": "https://devdeepkumar.github.io/Doctor-LP/",
+      "code": "https://github.com/devdeepkumar/Doctor-LP"
+    }
+  },
+  {
+    "name": "Whether",
+    "desc": "A simple weather app that provides current weather information for any city.",
+    "image": "Weathers",
+    "category": "js",
+    "links": {
+      "view": "https://devdeepkumar.github.io/weatherApp/",
+      "code": "https://github.com/devdeepkumar/weatherApp"
+    }
+  },
+  {
+    "name": "ToDo List",
+    "desc": "A simple ToDo List application that allows users to add, edit, and delete tasks.",
+    "image": "Todo",
+    "category": "js",
+    "links": {
+      "view": "https://devdeepkumar.github.io/toDo-List/",
+      "code": "https://github.com/devdeepkumar/toDo-List"
+    }
+  },
+  {
+    "name": "Age Calculator",
+    "desc": "A simple age calculator that calculates the age based on the date of birth provided.",
+    "image": "AgeCalculator",
+    "category": "js",
+    "links": {
+      "view": "https://devdeepkumar.github.io/ageCalculator/",
+      "code": "https://github.com/devdeepkumar/ageCalculator"
+    }
+  },
+  {
+    "name": "Random Password",
+    "desc": "A simple random password generator that generates a random password based on the criteria provided by the user.",
+    "image": "RandomPass",
+    "category": "js",
+    "links": {
+      "view": "https://devdeepkumar.github.io/RandomPassword//",
+      "code": "https://github.com/devdeepkumar/RandomPassword"
+    }
+  },
+  {
+    "name": "Quiz App",
+    "desc": " A simple quiz app that allows users to answer questions and get their scores.",
+    "image": "Quiz",
+    "category": "js",
+    "links": {
+      "view": "https://devdeepkumar.github.io/quizApp/",
+      "code": "https://github.com/devdeepkumar/quizApp"
+    }
+  },
+  {
+    "name": "Gradiant color",
+    "desc": "A simple gradient color generator that allows users to generate random gradient colors.",
+    "image": "ColorGen",
+    "category": "js",
+    "links": {
+      "view": "https://devdeepkumar.github.io/gradientColorGen/",
+      "code": "https://github.com/devdeepkumar/gradientColorGen"
+    }
+  },
+  {
+    "name": "LL Clinic LP",
+    "desc": "Landing page created using pure HTML and CSS Js for LifeLinker Clinic.",
+    "image": "LL-Clinic",
+    "category": "js",
+    "links": {
+      "view": "https://lifelinkrclinic.netlify.app/",
+      "code": "/"
+    }
+  }
+]
