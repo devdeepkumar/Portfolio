@@ -1069,6 +1069,14 @@ form .button-area {
 }
 /* contact section media queries starts */
 @media (max-width: 900px) {
+  .home{
+    flex-direction: column-reverse;
+     .image{
+      margin-left: 0;
+      margin-top: 8rem;
+      flex: 1 1 100%;
+     }
+  }
   .contact {
     min-height: 70vh;
   }
