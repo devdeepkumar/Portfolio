@@ -45,7 +45,7 @@ function showProjects(projects) {
     let projectsHTML = "";
     projects.forEach(project => {
         projectsHTML += `
-        <div class="grid-item ${project.category}">
+    <div class="grid-item ${project.category}">
         <div class="box tilt" style="width: 330px; margin:1rem ">
       <img draggable="false" src="/assets/images/projects/${project.image}.png" alt="project" />
       <div class="content">
@@ -83,14 +83,44 @@ function showProjects(projects) {
     // srtop.reveal('.project .box', { interval: 200 });
 
     // isotope filter products
-    var $grid = $('.box-container').isotope({
-        itemSelector: '.grid-item',
-        layoutMode: 'fitRows',
-        masonry: {
-            columnWidth: 200
-        }
-    });
+    // var $grid = $('.box-container').isotope({
+    //     itemSelector: '.grid-item',
+    //     layoutMode: 'fitRows',
+    //     masonry: {
+    //         columnWidth: 200
+    //     }
+    // });
 
+   var $grid = $(".box-container").isotope({
+     itemSelector: ".grid-item",
+     layoutMode: "fitRows",
+   });
+
+   $("#filters .btn").on("click", function () {
+     $("#filters .btn").removeClass("is-checked");
+     $(this).addClass("is-checked");
+
+     var filterValue = $(this).attr("data-filter");
+     $grid.isotope({ filter: filterValue }); // Trigger filtering
+   });
+
+    //  $('#filters .btn').on('click', function () {
+    //   // Remove active class from all
+    //   $('#filters .btn').removeClass('is-checked');
+    //   // Add active class to clicked one
+    //   $(this).addClass('is-checked');
+
+    //   var filterValue = $(this).attr('data-filter');
+
+    //   if (filterValue === '*') {
+    //     $('.grid-item').show();
+    //   } else {
+    //     $('.grid-item').hide();
+    //     $(filterValue).show(); // filterValue is like '.mern', '.js', etc.
+    //   }
+    // });
+ 
+    
     // filter items on button click
     $('.button-group').on('click', 'button', function () {
         $('.button-group').find('.is-checked').removeClass('is-checked');
