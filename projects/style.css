@@ -349,7 +349,13 @@ header .navbar ul li a:hover{
   background: #ffffff;
   color: #000;
 }
-.backbtn .btn:hover i {
+.backbtn .btn .fa-arrow-right{
+  margin-left: 0.5rem;
+}
+.backbtn .btn:hover .fa-arrow-right {
+  transform: translateX(8px);
+}
+.backbtn .btn:hover .fa-arrow-left {
   transform: translateX(-8px);
 }
 /* work section ends */
