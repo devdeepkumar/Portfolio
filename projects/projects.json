@@ -73,7 +73,7 @@
   },
   {
     "name": "Rest Countries",
-    "desc": "Google Custom Search API Using React",
+    "desc": "Fetching Country Details from API and Showing all data using React v19",
     "image": "RestCountries",
     "category": "react",
     "links": {

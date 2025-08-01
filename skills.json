@@ -42,7 +42,7 @@
   },
   {
     "name": "Jquery",
-    "icon": "https://img.icons8.com/?&id=40253&format=png&color=111111"
+    "icon": "./assets/images/jquery.png"
   },
   {
     "name": "Typescript",
